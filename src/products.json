@@ -1,0 +1,32 @@
+[
+  {
+    "id": "fd962f8e-a71a-46b2-929c-f5d8af68d6ae",
+    "title": "Campera de jean",
+    "price": 2500,
+    "stock": 20
+  },
+  {
+    "id": "ea60d7fd-ba43-4ab4-9d17-f95b6fb36a36",
+    "title": "Auriculares",
+    "price": 1000,
+    "stock": 30
+  },
+  {
+    "id": "816dc773-13ce-4485-a9a4-f27541799d03",
+    "title": "Auriculares",
+    "price": 200,
+    "status": false,
+    "stock": 5,
+    "thumbnails": []
+  },
+  {
+    "id": "30c9071f-1043-4944-ac66-c51454488abd",
+    "title": "Auriculares",
+    "price": 200,
+    "status": false,
+    "stock": 5,
+    "thumbnails": [
+      "Hola"
+    ]
+  }
+]
