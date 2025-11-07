@@ -1,0 +1,68 @@
+[
+  {
+    "id": "4f17076a-d6ff-49bf-8530-5002ddfb9182",
+    "title": "campera de jean",
+    "description": "Campera",
+    "code": "230",
+    "price": "2000",
+    "stock": "20",
+    "category": "ropa",
+    "status": true,
+    "thumbnail": ""
+  },
+  {
+    "id": "604f94d9-8119-422f-8e6f-b50a35b82c08",
+    "title": "pantalon de jean",
+    "description": "pantalon",
+    "code": "125",
+    "price": "222",
+    "stock": "203",
+    "category": "ropa",
+    "status": true,
+    "thumbnail": ""
+  },
+  {
+    "id": "c5439ac6-86d4-4763-8c33-9750ce66ed06",
+    "title": "reloj",
+    "description": "reloj",
+    "code": "2039",
+    "price": "221",
+    "stock": "10",
+    "category": "tecnologia",
+    "status": true,
+    "thumbnail": ""
+  },
+  {
+    "id": "bff165d0-538f-46a1-b468-43e79ab7c126",
+    "title": "telefono",
+    "description": "telefono",
+    "code": "30492",
+    "price": "30",
+    "stock": "12",
+    "category": "tecnologia",
+    "status": true,
+    "thumbnail": ""
+  },
+  {
+    "id": "d0a1ad65-d200-4d86-9f40-fe6c381aae06",
+    "title": "Camisa",
+    "description": "Camisa",
+    "code": "2022",
+    "price": "100",
+    "stock": "20",
+    "category": "ropa",
+    "status": true,
+    "thumbnail": ""
+  },
+  {
+    "id": "752f06df-c4d5-47c2-aab5-69fe20b16a44",
+    "title": "campera de cuero",
+    "description": "campera",
+    "code": "0321",
+    "price": "300",
+    "stock": "20",
+    "category": "ropa",
+    "status": true,
+    "thumbnail": ""
+  }
+]

@@ -23,13 +23,7 @@ class ProductManager {
       const newId = this.generateNewId();
       // Creamos el nuevo producto y lo pusheamos al array de productos
       
-      const thumbnails = Array.isArray(newProduct.thumbnails)
-        ? newProduct.thumbnails
-        : newProduct.thumbnails
-        ? [newProduct.thumbnails] // 👈 lo convierte en array con un solo elemento
-        : [];
-
-      const product = { id: newId, title: newProduct.title, description: newProduct.description, code: newProduct.code, price: newProduct.price, status: Boolean(newProduct.status), stock: newProduct.stock, category: newProduct.category, thumbnails: thumbnails};
+      const product = { id: newId, ...newProduct, status: true, thumbnail: "" }
       products.push(product);
 
       //guardamos los productos en el json
@@ -39,7 +33,7 @@ class ProductManager {
         "utf-8"
       );
 
-      return products;
+      return product;
     } catch (error) {
       throw new Error("Error al añadir el nuevo producto: " + error.message);
     }
@@ -91,7 +85,7 @@ class ProductManager {
         JSON.stringify(filteredProducts, null, 2),
         "utf-8"
       );
-      return products;
+      return pid;
     } catch (error) {
       throw new Error("Error al actualizar los productos: " + error.message);
     }
