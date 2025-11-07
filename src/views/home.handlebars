@@ -1,19 +1,23 @@
- <div>
- <h1>Home</h1>
+<div>
+  <div class="navbar">
+    <h1 class="nav-title"> <a href="http://localhost:8080/">Home </a></h1>
+    <h1 class="nav-title">
+      <a href="http://localhost:8080/realtimeproducts">Real Time Products</a></h1>
+  </div>
   <h2>Lista de productos</h2>
- <div class="products-container">
-  <ul id="productsList">
-    {{#each products}}
-      <li id="{{this.id}}" class="product-card">
+  <div class="products-container">
+    <ul id="productsList">
+      {{#each products}}
+        <li id="{{this.id}}" class="product-card">
           <h3>{{this.title}}</h3>
           <p><strong>Descripción:</strong> {{this.description}}</p>
           <p><strong>Código:</strong> {{this.code}}</p>
           <p><strong>Precio:</strong> ${{this.price}}</p>
           <p><strong>Stock:</strong> {{this.stock}}</p>
           <p><strong>Categoria:</strong> {{this.category}}</p>
-      </li>
-    {{/each}}
+        </li>
+      {{/each}}
 
-  </ul>
+    </ul>
   </div>
-  </div>
+</div>
